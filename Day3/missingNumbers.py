@@ -1,4 +1,4 @@
-def find_missing(one, two):
+def find_missing(nums1, nums):
     missing = []
     for n in one:
         if n not in two:
